@@ -1,21 +1,21 @@
 # Ollama's Weights
-
-Este script organiza los blobs de un modelo de Ollama (por ejemplo Gemma3) en archivos separados:
+This script organizes the blobs of an Ollama model (for example Gemma3) into separate files:
 - `model_quant.gguf`
 - `params.txt`
 - `license.txt`
 - `template.txt`
 - `config.json`
 
-⚠️ **Importante:**  
-Este repositorio **NO incluye los pesos** del modelo. Debes descargarlos legalmente desde Ollama u otra fuente oficial.  
-El uso de los modelos y derivados está sujeto a los [Gemma Terms of Use](https://ai.google.dev/gemma/terms).
+⚠️ **Important:**  
+This repository **DOES NOT include the model weights**. You must download them legally from Ollama or another official source.  
+Use of the models and derivatives is subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms).
 
-## Requisitos
+## Requirements
 - Bash
-- `jq` para procesar el manifest
+- `jq` to process the manifest
 
-## Uso
+## Usage
 ```bash
 chmod +x extract_blobs.sh
 ./extract_blobs.sh
+```
