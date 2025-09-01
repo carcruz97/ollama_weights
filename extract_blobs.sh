@@ -1,6 +1,5 @@
 #!/bin/bash
 # =========================================================
-# Script GitHub-friendly para organizar blobs de Ollama
 # ⚠️ Este script NO distribuye los pesos. Solo organiza archivos locales.
 # Requiere permisos adecuados y que Ollama esté instalado.
 # Uso: ./extract_ollama_blobs.sh
